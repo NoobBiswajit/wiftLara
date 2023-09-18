@@ -18,31 +18,31 @@
                                 <ul class="md:flex justify-between items-center ">
                                     <li> <a id="home-link"
                                             class="text-base font-rlw text-white font-semibold hover:text-Nblue"
-                                            href="index.html">Home</a> </li>
+                                            href="{{ url('home') }}">Home</a> </li>
                                     <li> <a id="about-link"
                                             class="text-base font-rlw text-white font-semibold hover:text-Nblue"
-                                            href="about.html">About</a> </li>
+                                            href="{{ url('about') }}">About</a> </li>
                                     <li> <a id="services-link"
                                             class="text-base font-rlw text-white font-semibold hover:text-Nblue"
-                                            href="services.html">Services</a> </li>
+                                            href="{{ url('services') }}">Services</a> </li>
                                     <li> <a id="blog-link"
                                             class="text-base font-rlw text-white font-semibold hover:text-Nblue"
-                                            href="blog.html">Blog</a> </li>
+                                            href="{{ url('blog') }}">Blog</a> </li>
                                     <li> <a id="portfolio-link"
                                             class="text-base font-rlw text-white font-semibold hover:text-Nblue"
-                                            href="portfolio.html">Protfolio</a> </li>
+                                            href="{{ url('portfolio') }}">Protfolio</a> </li>
                                     <li> <a id="career-link"
                                             class="text-base font-rlw text-white font-semibold hover:text-Nblue"
-                                            href="career.html">Career</a> </li>
+                                            href="{{ url('career') }}">Career</a> </li>
                                     <li> <a id="contact-link"
                                             class="text-base font-rlw text-white font-semibold hover:text-Nblue"
-                                            href="contact.html">Contact</a> </li>
+                                            href="{{ url('contactus') }}">Contact</a> </li>
                                 </ul>
                             </div>
                             <div class="col-span-2">
                                 <div class="md:flex justify-end"> <a
                                         class="font-rlw text-black font-base py-1 px-3 rounded-md font-semibold bg-white"
-                                        href="signup.html">Sign Up</a> </div>
+                                        href="{{ url('signup') }}">Sign Up</a> </div>
                             </div>
                         </div>
                     </div>

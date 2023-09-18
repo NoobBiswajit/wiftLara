@@ -11,8 +11,8 @@ Route::get('/about', function () {
 Route::get('/services', function () {
     return view('services');
 });
-Route::get('/blogs', function () {
-    return view('blogs');
+Route::get('/blog', function () {
+    return view('blog');
 });
 Route::get('/portfolio', function () {
     return view('portfolio');
@@ -30,4 +30,3 @@ Route::get('/signup', function () {
 Route::get('/signin', function () {
     return view('signin');
 });
-

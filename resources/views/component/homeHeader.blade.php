@@ -40,7 +40,7 @@
                                             <div class="md:block hidden">
                                                 <a id="home-link"
                                                     class="text-base font-rlw text-white font-semibold hover:text-white"
-                                                    href="index.html">Home</a>
+                                                    href="{{ url('home') }}">Home</a>
                                             </div>
                                             <div class="md:hidden block">
                                                 <div class="flex-col justify-center">
@@ -77,7 +77,7 @@
                                             <div class="md:block hidden">
                                                 <a id="services-link"
                                                     class="text-base font-rlw text-white font-semibold hover:text-white"
-                                                    href="services.html">Services</a>
+                                                    href="{{ url('services') }}">Services</a>
                                             </div>
                                             <div class="md:hidden block">
                                                 <div class="flex-col justify-center">
@@ -95,7 +95,7 @@
                                             <div class="md:block hidden">
                                                 <a id="blog-link"
                                                     class="text-base font-rlw text-white font-semibold hover:text-white"
-                                                    href="blog.html">Blogs</a>
+                                                    href="{{ url('blog') }}">Blogs</a>
                                             </div>
                                             <div class="md:hidden block">
                                                 <div class="flex-col justify-center">
@@ -113,7 +113,7 @@
                                             <div class="md:block hidden">
                                                 <a id="portfolio-link"
                                                     class="text-base font-rlw text-white font-semibold hover:text-white"
-                                                    href="portfolio.html">Portfolio</a>
+                                                    href="{{ url('portfolio') }}">Portfolio</a>
                                             </div>
                                             <div class="md:hidden block">
                                                 <div class="flex-col justify-center">
@@ -136,7 +136,7 @@
                                             <div class="md:hidden block">
                                                 <div class="flex-col justify-center">
                                                     <div class="flex justify-center items-center">
-                                                        <a id="career-link" href="career.html"
+                                                        <a id="career-link" href="{{ url('career') }}"
                                                             class="text-base font-rlw text-white font-semibold hover:text-white text-center">Career</a>
                                                     </div>
                                                     <div class="flex justify-center ">
@@ -149,7 +149,7 @@
                                             <div class="md:block hidden">
                                                 <a id="contact-link"
                                                     class="text-base font-rlw text-white font-semibold hover:text-white"
-                                                    href="contact.html">Contact Us</a>
+                                                    href="{{ url('contactus') }}">Contact Us</a>
                                             </div>
                                             <div class="md:hidden block">
                                                 <div class="flex-col justify-center">
@@ -169,7 +169,7 @@
                                 <div class="col-span-2">
                                     <div class="flex md:justify-end justify-center md:mt-0 mt-5"> <a
                                             class="font-rlw text-black font-base py-1 px-3 rounded-md font-semibold bg-white"
-                                            href="signup.html">Sign Up</a> </div>
+                                            href="{{ url('signup') }}">Sign Up</a> </div>
                                 </div>
                             </div>
                         </div>
@@ -185,19 +185,22 @@
                             <div class="swiper-slide">
                                 <div class="">
                                     <h2 class="text-xl xl:text-5xl font-rlw font-bold text-white"> Unleash Your <br />
-                                        <span class="text-rpigment">Potential</span> with NEXWIFT </h2>
+                                        <span class="text-rpigment">Potential</span> with NEXWIFT
+                                    </h2>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="">
                                     <h2 class="text-xl  xl:text-5xl font-rlw font-bold text-white"> Empowering Your
-                                        <br /> <span class="text-rpigment">Digital</span> Journey with NEXWIFT </h2>
+                                        <br /> <span class="text-rpigment">Digital</span> Journey with NEXWIFT
+                                    </h2>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="">
                                     <h2 class="text-xl  xl:text-5xl font-rlw font-bold text-white"> Experience<br />
-                                        <span class="text-rpigment">Innovation </span>at NEXWIFT</h2>
+                                        <span class="text-rpigment">Innovation </span>at NEXWIFT
+                                    </h2>
                                 </div>
                             </div>
 
@@ -210,7 +213,8 @@
             <div class="slogan_text hidden lg:flex">
                 <p class="text-sm font-rlw text-white">"Welcome to NEXWIFT, where innovation and creativity converge to
                     <br> craft your digital success. Join us on a journey to
-                    elevate your brand, <br> one pixel at a time." </p>
+                    elevate your brand, <br> one pixel at a time."
+                </p>
             </div>
         </div>
     </header>
